@@ -15,10 +15,11 @@ openai.api_type = "azure"
 # Define function to query API
 def ask_openai(question):
     response = openai.Completion.create(
-        engine="kegpt35",
+        engine="davinci",
         prompt=f"Q: {question}\nA:",
         max_tokens=1024,
         n=1,
+        stop=None,
         temperature=0.7,
     )
     answer = response.choices[0].text.strip()
