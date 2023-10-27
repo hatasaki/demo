@@ -64,4 +64,4 @@ jobs:
         with:
           app-name: 'keisuke-githubdemo'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8DED50406211460FA8B664D7B242F248 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_512001F96C404C1A9CF196EFD6EB975F }}
